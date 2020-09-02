@@ -1,0 +1,116 @@
+body{
+    background:white;
+    margin: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.paragraf{
+    text-indent: 12px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}    
+
+#featured-post{
+    background-image: url(../images/silancur2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#featured-post .wrapper{
+    width: 500px;
+    color:yellow;
+    font-family: Calibri;
+}
+
+a.category{
+    color:yellow;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+a.button{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#content{
+    background:white;
+    width: 80%;
+    float: left;
+}
+
+#sidebar{
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    color:red;
+}
+#gambar-terkait{
+    height:20%;
+    width: 20%; ;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.list-article{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list-article a.category{
+    color: burlywood;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.list-article a.button{
+    border-color:blue ;
+    color:blue;
+}
+
+.list-article .author{
+    margin-top: 50px;
+
+}
+
